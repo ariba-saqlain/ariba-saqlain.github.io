@@ -57,6 +57,11 @@ body h4 {
     color: white;
 }
 
+.polaroid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+}
+
 /*--------------------------------------------*/
 
 /*      02 - Main Navigation Style
@@ -229,11 +234,6 @@ hr2 {
     margin-left: 40px
 }
 
-.polaroid {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: inline-block;
-}
-
 /*--------------------------------------------*/
 
 /*      05 - Audio/Video Editing Style
@@ -247,8 +247,7 @@ hr2 {
 #myImg1,
 #myImg2,
 #myImg3,
-#myImg4
-{
+#myImg4 {
     border-radius: 0px;
     cursor: pointer;
     transition: 0.3s;
@@ -257,8 +256,7 @@ hr2 {
 #myImg1:hover,
 #myImg2:hover,
 #myImg3:hover,
-#myImg4:hover
-{
+#myImg4:hover {
     opacity: 0.5;
 }
 
