@@ -80,7 +80,6 @@
             <div id="myModal" class="modal">
                 <span class="close">&times;</span>
                 <img class="modal-content-1" id="imgContent1">
-                <img class="modal-content-2" id="imgContent2">
             </div>
 
         </div>
@@ -117,26 +116,28 @@
             var img4 = document.getElementById('myImg4');
 
             var modalImg1 = document.getElementById("imgContent1");
-            var modalImg2 = document.getElementById("imgContent2");
-
             img1.onclick = function() {
                 modal.style.display = "block";
+                modalImg1.className = "modal-content-1";
                 modalImg1.src = this.src;
             }
 
             img2.onclick = function() {
                 modal.style.display = "block";
+                modalImg1.className = "modal-content-1";
                 modalImg1.src = this.src;
             }
 
             img3.onclick = function() {
                 modal.style.display = "block";
-                modalImg2.src = this.src;
+                modalImg1.className = "modal-content-2";
+                modalImg1.src = this.src;
             }
 
             img4.onclick = function() {
                 modal.style.display = "block";
-                modalImg2.src = this.src;
+                modalImg1.className = "modal-content-2";
+                modalImg1.src = this.src;
             }
 
             // Get the <span> element that closes the modal
