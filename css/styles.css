@@ -62,6 +62,20 @@ body h4 {
     display: inline-block;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #7F7F7F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Oswald", helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
 /*--------------------------------------------*/
 
 /*      02 - Main Navigation Style
@@ -370,22 +384,4 @@ hr2 {
     text-align: center;
     color: dimgrey;
     font-weight: 500;
-}
-
-/* Slideshow */
-
-.mySlides {
-    display: none;
-}
-
-.w3-left,
-.w3-right,
-.w3-badge {
-    cursor: pointer;
-}
-
-.w3-badge {
-    height: 17px;
-    width: 13px;
-    padding: 0;
 }
