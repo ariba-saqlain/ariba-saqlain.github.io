@@ -6,8 +6,8 @@
  * 4. Programming Style
  * 5. Audio/Video Editing Style
  * 6. Graphic Design Style
- * 7. Contact Style
- *
+ * 7. About Style
+ * 8. Contact Style
  *
  *
  * ---------------------------- */
@@ -72,13 +72,9 @@ body h4 {
     display: inline-block;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.myFooter {
     text-align: center;
-    color: #7F7F7F;
+    color: #969696;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -402,32 +398,57 @@ hr2 {
 
 /*--------------------------------------------*/
 
-/*      07 - Contact Style
+/*      07 - About Style
 /*--------------------------------------------*/
+
+hr3 {
+    display: block;
+    height: 1px;
+    width: 170px;
+    border-top: 2px solid #969696;
+    margin-bottom: 25px;
+}
+
+/*--------------------------------------------*/
+
+/*      08 - Contact Style
+/*--------------------------------------------*/
+
+.message {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #7F7F7F;
+    position: relative;
+    font-size: 140%;
+    margin: 5px 5px 20px 0px;
+}
 
 label {
     font-family: "Lato", sans-serif;
     height: 100% !important;
-    font-weight: 500;
+    font-weight: 400;
     color: #7F7F7F;
     position: relative;
     font-size: 120%;
     width: 100px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
 }
 
-input[type=text], textarea {
-    width: 500px;
+input[type=text],
+textarea {
+    width: 100%;
     margin-bottom: 20px;
     color: #7F7F7F;
 }
 
 input[type=submit] {
-    background-color: #7F7F7F;
+    font-family: "Lato", sans-serif;
+    font-size: 120%;
+    background-color: #83AF93;
     color: white;
-    padding: 12px 20px;
+    padding: 10px 20px 10px 20px;
     cursor: pointer;
-    border:none;
+    border: none;
 }
 
 input[type=submit]:hover {
