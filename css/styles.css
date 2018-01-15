@@ -6,7 +6,7 @@
  * 4. Programming Style
  * 5. Audio/Video Editing Style
  * 6. Graphic Design Style
- *
+ * 7. Contact Style
  *
  *
  *
@@ -130,7 +130,7 @@ body h4 {
 
 /*--------------------------------------------*/
 
-/*      03 - Portfolio Style
+/*      03 - Portfolio Style (index.html)
 /*--------------------------------------------*/
 
 .container {}
@@ -156,9 +156,8 @@ hr {
     margin: 1em 0;
 }
 
-img:hover {
+.contact-icons:hover {
     opacity: 0.5;
-    overflow: hidden;
 }
 
 /*--------------------------------------------*/
@@ -403,5 +402,34 @@ hr2 {
 
 /*--------------------------------------------*/
 
-/*      01 - Contact Style
+/*      07 - Contact Style
 /*--------------------------------------------*/
+
+label {
+    font-family: "Lato", sans-serif;
+    height: 100% !important;
+    font-weight: 500;
+    color: #7F7F7F;
+    position: relative;
+    font-size: 120%;
+    width: 100px;
+    margin-bottom: 0px;
+}
+
+input[type=text], textarea {
+    width: 500px;
+    margin-bottom: 20px;
+    color: #7F7F7F;
+}
+
+input[type=submit] {
+    background-color: #7F7F7F;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    border:none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
