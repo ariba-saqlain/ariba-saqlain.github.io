@@ -87,17 +87,11 @@ body h4 {
 /*      02 - Main Navigation Style
 /*--------------------------------------------*/
 
-.mainNav {
+.navbar {
     background-color: #DDDDDD;
-    -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    position: relative;
 }
 
-.mainNav .navbar-nav li a,
-.mainNav .navbar-nav li a:focus {
+.navbar a {
     color: #7F7F7F;
     font-size: 18px;
     text-transform: uppercase;
@@ -106,22 +100,20 @@ body h4 {
     letter-spacing: 1px;
 }
 
-.mainNav .navbar-nav > li > a:hover,
-.mainNav .navbar-nav > li > a:focus:hover {
+.navbar-nav > li > a:hover {
     text-decoration: underline;
 }
 
-.mainNav .navbar-nav > li.active > a,
-.mainNav .navbar-nav > li.active > a:focus {
-    color: #7F7F7F!important;
-    background-color: transparent;
+.navbar-nav > li.active > a {
     text-decoration: underline;
 }
 
-.mainNav .navbar-nav > li.active > a:hover,
-.mainNav .navbar-nav > li.active > a:focus:hover {
-    color: #7F7F7F;
-    background-color: transparent;
+.navbar-toggler {
+    border-color: #7F7F7F;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/hamburger.png);
 }
 
 /*--------------------------------------------*/
@@ -134,7 +126,6 @@ body h4 {
 /*padding: top right bottom left;*/
 
 .col-sm-4 {
-    margin-top: 100px;
     padding: 50px 0px 50px 0px;
 }
 
@@ -409,6 +400,18 @@ hr3 {
     margin-bottom: 25px;
 }
 
+.col-md-12 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7F7F7F;
+}
+
+.intIcons {
+    width: auto;
+    height: auto;
+    margin: 20px auto 10px auto;
+}
+
 /*--------------------------------------------*/
 
 /*      08 - Contact Style
@@ -419,8 +422,10 @@ hr3 {
     font-weight: 400;
     color: #7F7F7F;
     position: relative;
-    font-size: 140%;
-    margin: 5px 5px 20px 0px;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 label {
