@@ -14,6 +14,7 @@
 
 /* -------------------------------
  *
+ * Colour Scheme
  * Purple: #7E6182
  * Green: #83AF93
  * Light Grey: #DDDDDD
@@ -407,9 +408,9 @@ hr3 {
 }
 
 .intIcons {
-    width: auto;
+    width: 20%;
     height: auto;
-    margin: 20px auto 10px auto;
+    margin: 18px auto 10px auto;
 }
 
 /*--------------------------------------------*/
