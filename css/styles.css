@@ -82,6 +82,10 @@ body h4 {
     letter-spacing: 1px;
 }
 
+.contact-icons:hover {
+    opacity: 0.5;
+}
+
 /*--------------------------------------------*/
 
 /*      02 - Main Navigation Style
@@ -151,10 +155,6 @@ hr {
     height: 1px;
     border-top: 5px solid white;
     margin: 1em 0;
-}
-
-.contact-icons:hover {
-    opacity: 0.5;
 }
 
 /*--------------------------------------------*/
