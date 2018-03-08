@@ -136,8 +136,43 @@
                 <p>Users have individual accounts to distribute project tasks. They are also able to maneuver through different subsections of the project in order to see which tasks are yet to be done, in progress, and already completed. In summary, PlanMe serves as an online project management platform that focuses on synchronized workflows to complete shared tasks.</p>
             </div>
 
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
             <center>
-                <h4 style="margin: 30px auto 10px auto">Logo</h4>
+                <h4 style="margin: 40px auto 10px auto">Page Views</h4>
+            </center>
+
+            <div class="w3-content w3-display-container">
+
+                <div class="w3-display-container mySlides">
+                    <img src="images/planme_views/view_1.JPG" style="width:100%">
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <img src="images/planme_views/view_2.JPG" style="width:100%">
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <img src="images/planme_views/view_3.JPG" style="width:100%">
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <img src="images/planme_views/view_4.JPG" style="width:100%">
+                </div>
+
+                <div class="w3-display-container mySlides">
+                    <img src="images/planme_views/view_5.JPG" style="width:100%">
+                </div>
+
+                <center>
+                    <button style="width: 50px; margin-top: 10px" onclick="plusDivs(-1)">&#10094;</button>
+                    <button style="width: 50px; margin-top: 10px" onclick="plusDivs(1)">&#10095;</button>
+                </center>
+
+            </div>
+
+            <center>
+                <h4 style="margin: 40px auto 10px auto">Logo</h4>
             </center>
 
             <center>
@@ -340,18 +375,15 @@
 
     <div class="myFooter" style="margin: 20px auto auto auto">
 
-        <a href="https://www.linkedin.com/in/ariba-saqlain/" target="_blank"
-           style="text-decoration: none">
+        <a href="https://www.linkedin.com/in/ariba-saqlain/" target="_blank" style="text-decoration: none">
             <img style="width:40px; height:40px; margin: auto 5px 5px 5px" src="images/linkedin-button.png" class="contact-icons">
         </a>
 
-        <a href="https://github.com/ariba-saqlain" target="_blank"
-           style="text-decoration: none">
+        <a href="https://github.com/ariba-saqlain" target="_blank" style="text-decoration: none">
             <img style="width:40px; height:40px; margin: auto 5px 7px 5px" src="images/github-logo.png" class="contact-icons">
         </a>
 
-        <a href="mailto:ariba.saqlain@gmail.com" target="_newtab"
-           style="text-decoration: none">
+        <a href="mailto:ariba.saqlain@gmail.com" target="_newtab" style="text-decoration: none">
             <img style="width:40px; height:40px; margin: auto 5px 5px 5px" src="images/email.png" class="contact-icons">
         </a>
 
@@ -401,6 +433,31 @@
                     }
                 }
             });
+
+    </script>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
 
     </script>
 
