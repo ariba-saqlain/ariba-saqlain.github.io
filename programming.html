@@ -42,10 +42,10 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="thumbnail">
-                    <img src="images/thumbnail_1.png">
+                    <img src="images/thumbnail_5.png">
                 </div>
                 <div class="overlay">
-                    <div class="text"><a href="#one" style="color: white">3D Graphics Simulator</a></div>
+                    <div class="text"><a href="#one" style="color: white">Paws for Change</a></div>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -58,18 +58,18 @@
             </div>
             <div class="col-sm-6">
                 <div class="thumbnail">
-                    <img src="images/thumbnail_3.png">
+                    <img src="images/thumbnail_1.png">
                 </div>
                 <div class="overlay">
-                    <div class="text"><a href="#three" style="color: white">Animal Kingdom</a></div>
+                    <div class="text"><a href="#three" style="color: white">3D Graphics Simulator</a></div>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="thumbnail">
-                    <img src="images/thumbnail_4.png">
+                    <img src="images/thumbnail_3.png">
                 </div>
                 <div class="overlay">
-                    <div class="text"><a href="#four" style="color: white">Calculator</a></div>
+                    <div class="text"><a href="#four" style="color: white">Animal Kingdom</a></div>
                 </div>
             </div>
         </div>
@@ -78,48 +78,114 @@
     <div style="background-color: #83AF93; margin-top: 100px">
         <div class="container" style="padding-bottom: 100px">
             <div class="subtitle" id="one">
-                <p>3D Graphics Simulator
-                    <span style="color: black"> | C/C++</span></p>
+                <p>Paws for Change
+                    <span style="color: black"> | PHP, SQL, HTML, CSS, JavaScript</span></p>
             </div>
 
             <p><a href="#top" style="color: white">Top</a></p>
 
-            <div class="row">
-                <div class="col-6" style="margin-bottom: 20px">
-                    <iframe src="https://player.vimeo.com/video/198801788" width="540" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
+            <div class="bodyText">
+                <p>Millions of people around the world are suffering from issues such as poverty, lack of clean water, and the right to education; this project will help bring those issues to an end.</p>
+                <p><b>Paws for Change</b> is an online non-profit organization. It allows users to donate to a world issue of their choosing. In return, a plush animal is shipped to them as a thank you gift. Below is the list of world issues: <br>
+                
+                <center><img src="images/world_issues.png" style="width:90%"></center>
+                
+                </p>
+            </div>
 
-                <div class="col-6">
-                    <div class="bodyText">
-                        <p>This program begins with an animation of a 3D cube being rotated. This was done by calling a function called move() which draws the image, waits 40 milliseconds, and then calls move() to redraw the image again. This approach was chosen to minimize the CPU utilization rate as much as possible.</p>
+            <center>
+                <h4 style="margin: 40px auto 10px auto">Page Views</h4>
+
+            <div class="w3-content w3-display-container">
+
+                <div class="w3-display-container slides1">
+                    <img src="images/paws_views/0.JPG" style="width:80%">
+                    <div class="caption">
+                        The registration form requires all fields to be filled as well a valid email address in order to verify the user. After clicking register, the user's information is stored in the database.
                     </div>
                 </div>
+
+                <div class="w3-display-container slides1">
+                    <img src="images/paws_views/2.JPG" style="width:80%">
+                    <div class="caption">
+                        On this page, the user is able to browse the list of causes as well as view the associated plush animals. 
+                    </div>
+                </div>
+
+                <div class="w3-display-container slides1">
+                    <img src="images/paws_views/3.5.JPG" style="width:80%">
+                    <div class="caption">
+                        Each cause has its own page where the user can learn more, view statistics, and read a short description as to why the selected plush animal corresponds to their cause.
+                    </div>
+                </div>
+
+                <div class="w3-display-container slides1">
+                    <img src="images/paws_views/4.JPG" style="width:80%">
+                    <div class="caption">
+                        This page makes use of PHP server-side programming. It allows users to view their total, delete individual items, empty the entire cart, continue shopping, or proceed to checkout.
+                    </div>
+                </div>
+
+                <div class="w3-display-container slides1">
+                    <img src="images/paws_views/5.JPG" style="width:80%">
+                    <div class="caption">
+                        Through these forms, payment and billing information securely gets stored in individual tables of the database.
+                    </div>
+                </div>
+
+                <div class="w3-display-container slides1">
+                    <img src="images/paws_views/6.JPG" style="width:80%">
+                    <div class="caption">
+                        This is the last page of the checkout process. It confirms that the donation has been processed and allows users to return home.
+                    </div>
+                </div>
+
+                <center>
+                    <button style="width: 50px; margin-top: 10px" onclick="plusDivs(-1)">&#10094;</button>
+                    <button style="width: 50px; margin-top: 10px" onclick="plusDivs(1)">&#10095;</button>
+                </center>
+
             </div>
+            </center>
+
+            <center>
+                <h4 style="margin: 40px auto 10px auto">Technology Stack</h4>
+            </center>
+
+            <center>
+                <div class="polaroid"><img style="max-height: 289px; max-width: 682px" src="images/paws_tech.JPG"></div>
+            </center>
+
+            <center>
+                <h4 style="margin: 40px auto 10px auto">Database</h4>
+            </center>
 
             <div class="bodyText">
+                <p>To store information, a database named <b>Accounts</b> was created; it contains three tables: <b>Users, Payment, Billing</b></p>
 
-                <p>A series of different transformations and animations are shown next:</p>
-
-                <ol>
-                    <li>
-                        Model Transformations: The cube (model) is rotated with respect to its x, y, and z axis. It is also shown being scaled to smaller and larger sizes.
-                    </li>
-                    <li>
-                        WC (world coordinate) Transformations: The cube is translated along the world's x, y, and z axis.
-                    </li>
-                    <li>
-                        Simple Solar System: An animation is created by rotating the sun in the centre of WC, rotating the earth along its own z axis and around the sun, and rotating a smaller blue planet around earth. Next, bitmap images are mapped onto each planet to create the texture.
-                    </li>
-                    <li>
-                        Bezier Curve Generation: Through mouse clicks, control points are generated and displayed and these points are then used to generate the Bezier curve. This was done by computing the coefficient polynomials, using them with the control points to compute the point p(u) on the curve for any given value of u, and then drawing the Bezier curve through line segments.
-                    </li>
-                    <li>
-                        Cube Texture: Different texture mappings are applied to each face of this cube. It goes through transformations known as View, where the eye position is rotated with respect to the world's x, y, and z axis.
-                    </li>
-                </ol>
+                <p>The users table generates a unique id (primary key) for each user. It stores their first name, last name, email address, and encrypted password. It also assigns all users as <b>active = 0</b> until they verify their account, at which point their active value changes to 1.</p>
             </div>
+
+            <h4 style="margin: 40px auto 10px auto">Users table:</h4>
+            <center>
+                <div class="polaroid"><img style="max-height: 100%; max-width: 100%" src="images/users_table.png"></div>
+            </center>
+
+            <div class="row">
+                <div class="col-5">
+                    <h4 style="margin: 40px auto 10px auto">Payment table:</h4>
+                    <div class="polaroid"><img style="max-height: 100%; max-width: 100%" src="images/payment_table.png"></div>
+                </div>
+
+                <div class="col-7">
+                    <h4 style="margin: 40px auto 10px auto">Billing table:</h4>
+                    <div class="polaroid"><img style="max-height: 100%; max-width: 100%" src="images/billing_table.png"></div>
+                </div>
+            </div>
+
         </div>
     </div>
+
 
     <div style="background-color: #7E6182">
         <div class="container" style="padding-bottom: 100px">
@@ -144,29 +210,29 @@
 
             <div class="w3-content w3-display-container">
 
-                <div class="w3-display-container mySlides">
+                <div class="w3-display-container slides2">
                     <img src="images/planme_views/view_1.JPG" style="width:100%">
                 </div>
 
-                <div class="w3-display-container mySlides">
+                <div class="w3-display-container slides2">
                     <img src="images/planme_views/view_2.JPG" style="width:100%">
                 </div>
 
-                <div class="w3-display-container mySlides">
+                <div class="w3-display-container slides2">
                     <img src="images/planme_views/view_3.JPG" style="width:100%">
                 </div>
 
-                <div class="w3-display-container mySlides">
+                <div class="w3-display-container slides2">
                     <img src="images/planme_views/view_4.JPG" style="width:100%">
                 </div>
 
-                <div class="w3-display-container mySlides">
+                <div class="w3-display-container slides2">
                     <img src="images/planme_views/view_5.JPG" style="width:100%">
                 </div>
 
                 <center>
-                    <button style="width: 50px; margin-top: 10px" onclick="plusDivs(-1)">&#10094;</button>
-                    <button style="width: 50px; margin-top: 10px" onclick="plusDivs(1)">&#10095;</button>
+                    <button style="width: 50px; margin-top: 10px" onclick="plusDivs2(-1)">&#10094;</button>
+                    <button style="width: 50px; margin-top: 10px" onclick="plusDivs2(1)">&#10095;</button>
                 </center>
 
             </div>
@@ -247,15 +313,63 @@
         </div>
     </div>
 
-    <div style="background-color: #83AF93">
+
+    <div style="background-color: #83AF93;">
         <div class="container" style="padding-bottom: 100px">
             <div class="subtitle" id="three">
+                <p>3D Graphics Simulator
+                    <span style="color: black"> | C/C++</span></p>
+            </div>
+
+            <p><a href="#top" style="color: white">Top</a></p>
+
+            <div class="row">
+                <div class="col-6" style="margin-bottom: 20px">
+                    <iframe class="responsive1" src="https://player.vimeo.com/video/198801788" width="540" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <div class="col-6">
+                    <div class="bodyText">
+                        <p>This program begins with an animation of a 3D cube being rotated. This was done by calling a function called move() which draws the image, waits 40 milliseconds, and then calls move() to redraw the image again. This approach was chosen to minimize the CPU utilization rate as much as possible.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bodyText">
+
+                <p>A series of different transformations and animations are shown next:</p>
+
+                <ol>
+                    <li>
+                        Model Transformations: The cube (model) is rotated with respect to its x, y, and z axis. It is also shown being scaled to smaller and larger sizes.
+                    </li>
+                    <li>
+                        WC (world coordinate) Transformations: The cube is translated along the world's x, y, and z axis.
+                    </li>
+                    <li>
+                        Simple Solar System: An animation is created by rotating the sun in the centre of WC, rotating the earth along its own z axis and around the sun, and rotating a smaller blue planet around earth. Next, bitmap images are mapped onto each planet to create the texture.
+                    </li>
+                    <li>
+                        Bezier Curve Generation: Through mouse clicks, control points are generated and displayed and these points are then used to generate the Bezier curve. This was done by computing the coefficient polynomials, using them with the control points to compute the point p(u) on the curve for any given value of u, and then drawing the Bezier curve through line segments.
+                    </li>
+                    <li>
+                        Cube Texture: Different texture mappings are applied to each face of this cube. It goes through transformations known as View, where the eye position is rotated with respect to the world's x, y, and z axis.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="background-color: #7E6182">
+        <div class="container" style="padding-bottom: 100px">
+            <div class="subtitle" id="four">
                 <p>Animal Kingdom
                     <span style="color: black"> | C/C++</span></p>
             </div>
             <p><a href="#top" style="color: white">Top</a></p>
 
-            <center><iframe src="https://player.vimeo.com/video/198800756" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+            <center><iframe class="responsive2" src="https://player.vimeo.com/video/198800756" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
 
             <div class="bodyText" style="margin: 20px auto auto auto">
                 <ul>
@@ -293,85 +407,7 @@
         </div>
     </div>
 
-    <div style="background-color: #7E6182">
-        <div class="container" style="padding-bottom: 100px">
-            <div class="subtitle" id="four">
-                <p>Calculator
-                    <span style="color: black"> | Java</span></p>
-            </div>
-            <p><a href="#top" style="color: white">Top</a></p>
 
-            <div class="row">
-                <div class="col-6" style="margin-bottom: 20px">
-                    <iframe src="https://player.vimeo.com/video/198802115" width="440" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-
-                <div class="col-6">
-                    <div class="bodyText">
-                        <ul>
-                            <li>
-                                This program was made by using a graphical user interface to create buttons, assign values, and display the numbers as they are pressed. Formulas were then added to calculate the result, and situations where the user enters invalid input are handled.
-                            </li>
-                            <li>
-                                Expected sequence of actions:
-                            </li>
-                            <div class="sublist">
-                                <li style="list-style-type:circle">
-                                    Enter the first number
-                                </li>
-                                <li style="list-style-type:circle">
-                                    Enter an operator / * - +
-                                </li>
-                                <li style="list-style-type:circle">
-                                    Enter the second number
-                                </li>
-                                <li style="list-style-type:circle">
-                                    Enter the operator =
-                                </li>
-                                <li style="list-style-type:circle">
-                                    Enter the operator C (to clear the screen and reset the calculator)
-                                </li>
-                            </div>
-                            <li>
-                                If the user enters an invalid sequence of actions, the program will output 0.0
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bodyText">
-                <ul>
-                    <li>
-                        The video shown above demonstrates the following situations:
-                    </li>
-                    <div class="sublist">
-                        <li style="list-style-type:circle">
-                            Division without a remainder
-                        </li>
-                        <li style="list-style-type:circle">
-                            Division with a remainder
-                        </li>
-                        <li style="list-style-type:circle">
-                            Multiplication
-                        </li>
-                        <li style="list-style-type:circle">
-                            Subtraction resulting in a position answer
-                        </li>
-                        <li style="list-style-type:circle">
-                            Subtraction resulting in a negative answer
-                        </li>
-                        <li style="list-style-type:circle">
-                            Addition
-                        </li>
-                        <li style="list-style-type:circle">
-                            Invalid sequence of actions
-                        </li>
-                    </div>
-                </ul>
-            </div>
-        </div>
-    </div>
 
     <div class="myFooter" style="margin: 20px auto auto auto">
 
@@ -446,7 +482,7 @@
 
         function showDivs(n) {
             var i;
-            var x = document.getElementsByClassName("mySlides");
+            var x = document.getElementsByClassName("slides1");
             if (n > x.length) {
                 slideIndex = 1
             }
@@ -457,6 +493,31 @@
                 x[i].style.display = "none";
             }
             x[slideIndex - 1].style.display = "block";
+        }
+
+    </script>
+
+    <script>
+        var slideIndex2 = 1;
+        showDivs2(slideIndex2);
+
+        function plusDivs2(n) {
+            showDivs2(slideIndex2 += n);
+        }
+
+        function showDivs2(n) {
+            var i;
+            var y = document.getElementsByClassName("slides2");
+            if (n > y.length) {
+                slideIndex2 = 1
+            }
+            if (n < 1) {
+                slideIndex2 = y.length
+            }
+            for (i = 0; i < y.length; i++) {
+                y[i].style.display = "none";
+            }
+            y[slideIndex2 - 1].style.display = "block";
         }
 
     </script>
